@@ -1,5 +1,5 @@
 ## what
-To compare perfomances of my favorite languates: Ruby, Node.js, Golang, C++
+To compare perfomances of my favorite languages: Ruby, Node.js, Golang, C++
 
 
 
