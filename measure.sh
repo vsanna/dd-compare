@@ -20,3 +20,7 @@ echo '\n'
 echo '======= ruby ======='
 ruby -v
 time ruby ./ruby/fib.rb
+
+echo '======= python ======='
+python --version
+time python ./python/fib.py

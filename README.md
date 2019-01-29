@@ -1,7 +1,8 @@
-## what
+## What
 To compare perfomances of my favorite languages: Ruby, Node.js, Golang, C++
 
-
+## Todo
+- align the versions
 
 ## Result
 
@@ -14,42 +15,49 @@ InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault
 -O3
 433494437
 
-real	0m2.333s
-user	0m2.237s
-sys	0m0.018s
+real	0m2.595s
+user	0m2.325s
+sys	0m0.031s
 
 
 no option
 433494437
 
-real	0m3.218s
-user	0m3.102s
-sys	0m0.018s
+real	0m4.469s
+user	0m3.536s
+sys	0m0.061s
 
 
 ======= golang =======
 go version go1.10.3 darwin/amd64
 433494437
 
-real	0m2.950s
-user	0m2.901s
-sys	0m0.018s
+real	0m3.498s
+user	0m3.112s
+sys	0m0.051s
 
 
 ======= node.js =======
 v8.4.0
 433494437
 
-real	0m5.709s
-user	0m5.488s
-sys	0m0.046s
+real	0m6.329s
+user	0m5.941s
+sys	0m0.077s
 
 
 ======= ruby =======
 ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-darwin17]
 433494437
 
-real	0m58.299s
-user	0m48.885s
-sys	0m0.668s
+real	1m1.600s
+user	0m49.543s
+sys	0m0.615s
+======= python =======
+Python 3.6.0 :: Anaconda 4.3.1 (x86_64)
+433494437
+
+real	3m56.494s
+user	3m33.183s
+sys	0m2.133s
 ```
