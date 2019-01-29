@@ -1,6 +1,10 @@
 echo '======= C++ ======='
 c++ -v | grep version
-time ./cpp/a.out
+echo '-O3'
+time ./cpp/o3
+echo '\n'
+echo 'no option'
+time ./cpp/noopt
 echo '\n'
 
 echo '======= golang ======='
@@ -10,7 +14,7 @@ echo '\n'
 
 echo '======= node.js ======='
 node -v
-time node ./javascript/fib.js
+time node ./js/fib.js
 echo '\n'
 
 echo '======= ruby ======='
